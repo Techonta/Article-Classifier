@@ -6,3 +6,5 @@ For example, there is an redundant article:
 
 And the real article (also the expected output) is:
 >There is nothing either good or bad, but thinking makes it so.
+
+![Demo screenshot](article_cleansing_demo.png)
