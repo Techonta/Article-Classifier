@@ -1,5 +1,5 @@
 # coding: utf-8
-# - This job is to cleanse the repeated article, doen't rearrange the order of the sentences in the article. The premise of this job is that the article need to be structured on its correct begining.
+# This job is to cleanse the articles contain redundant paragraphs or sentences. It doesn't rearrange the order of the sentences in the article. The premise of this job is that the article needs to be structured on its correct beginning.
 
 import math
 from statistics import mode
