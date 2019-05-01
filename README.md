@@ -1,2 +1,2 @@
 # article-cleansing
-# This job is to cleanse the articles containing redundant paragraphs or sentences. It doesn't rearrange the order of the sentences in the article. The premise of this job is that the article needs to be structured on its correct beginning.
+This job is to cleanse the articles containing redundant paragraphs or sentences. It doesn't rearrange the order of the sentences in the article. The premise of this job is that the article needs to be structured on its correct beginning.
