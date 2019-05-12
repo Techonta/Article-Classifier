@@ -13,5 +13,5 @@ And the real article (also the expected output) is:
 Reduced 40% capacity of corpus database
 
 ## Demo result
-![Demo screenshot](images/demo_ex_raw_3.png =80x30)
+![Demo screenshot](images/demo_ex_raw_3.png){:height="40px" width="15px"}
 
