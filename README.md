@@ -8,15 +8,10 @@ For example, there is an redundant article:
 And the real article (also the expected output) is:
 >There is nothing either good or bad, but thinking makes it so.
 
-Another example (Mandarin):
->滾滾長江東逝水，浪花淘盡英雄；是非成敗轉頭空，青山依舊在、幾度夕陽紅。白髮漁樵江渚上，慣看秋月春風；一壺濁酒喜相逢，古今多少事、都付笑談中。白髮漁樵江渚上，慣看秋月春風；一壺濁酒喜相逢，古今多少事、都付笑談中。一壺濁酒喜相逢，古今多少事、都付笑談中。
-
-And the real article (also the expected output) is:
->滾滾長江東逝水，浪花淘盡英雄；是非成敗轉頭空，青山依舊在、幾度夕陽紅。白髮漁樵江渚上，慣看秋月春風；一壺濁酒喜相逢，古今多少事、都付笑談中。
 
 ## Contribution
 Reduced 40% capacity of corpus database
 
 ## Demo result
-![Demo screenshot](images/article_cleansing_demo.png)
+![Demo screenshot](images/demo_ex_raw_3.png =80x30)
 
