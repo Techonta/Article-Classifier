@@ -10,18 +10,13 @@ emb_matrix = np.load('emb_128_so_tfidf.npy')
 emb_matrix.shape
 
 def pretrained_embedding_layer(emb_matrix):    
-    
     vocab_len, emb_dim = emb_matrix.shape
-    
     # Define Keras embedding layer with the correct output/input sizes, make it trainable. Use Embedding(...). Make sure to set trainable=False. 
     embedding_layer =  Embedding(vocab_len, emb_dim, trainable = False)
-
     # Build the embedding layer, it is required before setting the weights of the embedding layer.
     embedding_layer.build((None,))
-    
     # Set the weights of the embedding layer to the embedding matrix.
     embedding_layer.set_weights([emb_matrix])
-    
     return embedding_layer
 
 embedding_layer = pretrained_embedding_layer(emb_matrix)
