@@ -139,9 +139,3 @@ words_dic = create_dictionary(df_all['context_seg'],
 tfidf_ary = categorial_tfidf_generater(catalog_dic, df_all, words_dic, nor = False)
 emb_matrix = word2vec_embedding(df_all['context_seg'], 128, words_dic, model_to_disk=True)
 emb_tfidf = tfidf_concat(tfidf_ary, emb_matrix, to_disk=True)
-
-
-
-
-
-
