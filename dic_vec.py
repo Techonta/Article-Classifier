@@ -4,7 +4,7 @@ from gensim.models import word2vec
 from gensim import models
 import numpy as np
 import pandas as pd
-from data_processing_v6 import *
+from data_processing_util import *
 import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
 import os
